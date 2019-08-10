@@ -30,6 +30,13 @@ if lenRest > 20
     error('Rest time should not exceed 20 seconds!');
 end
 
+fprintf('\n\n');
+disp('=================================');
+warning('on');
+warning('Please turn on your speaker!');
+disp('=================================');
+fprintf('\n');
+
 readyVoice = {'Get ready to start!','Get ready for the next one!'};
 startVoice = {'Let''s do it!','Let''s go!','Here we go!','Start!','Now game time!'};
 restVoice = {'That''s it, take a break!','Good job, have a rest!','Nice, get some water!'};

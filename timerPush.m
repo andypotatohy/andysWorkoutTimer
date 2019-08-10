@@ -2,6 +2,7 @@ function timerPush(len)
 
 pushVoice = {'10 seconds, you''re doing good!','20 seconds, keep pushing!',...
     '30 seconds, you''re strong!'};
+% only 3 push voices, this is something needed to be improved
 finalPush = {'Come on, last push!'};
 
 % pause on;
